@@ -8,15 +8,15 @@
         <title>Quiz Demo</title>
 	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="/assets/css/app.css" rel="stylesheet" type="text/css" />
+        <!--
 	<script src="/assets/t/angular-1.5.5/angular.js"></script>
 	<script src="/assets/t/angular-1.5.5/angular-route.js"></script>
 	<script src="/assets/t/angular-1.5.5/angular-cookies.js"></script>
-        <!--
         -->
-        <!--
 	<script src="/assets/js/angular.min.js"></script>
 	<script src="/assets/js/angular-route.min.js"></script>
 	<script src="/assets/js/angular-cookies.min.js"></script>
+        <!--
         -->
 	<script src="/assets/app/app.js"></script>
 	<script src="/assets/app/Login.js"></script>
