@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="Quiz">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Duzy Chan">
+        <meta name="description" content="A demo of Quiz web app in Golang.">
+        <title>Quiz Demo</title>
+	<link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/assets/css/app.css" rel="stylesheet" type="text/css" />
+	<script src="/assets/t/angular-1.5.5/angular.js"></script>
+	<script src="/assets/t/angular-1.5.5/angular-route.js"></script>
+	<script src="/assets/t/angular-1.5.5/angular-cookies.js"></script>
+        <!--
+        -->
+        <!--
+	<script src="/assets/js/angular.min.js"></script>
+	<script src="/assets/js/angular-route.min.js"></script>
+	<script src="/assets/js/angular-cookies.min.js"></script>
+        -->
+	<script src="/assets/app/app.js"></script>
+	<script src="/assets/app/Login.js"></script>
+	<script src="/assets/app/Logout.js"></script>
+	<script src="/assets/app/Register.js"></script>
+	<script src="/assets/app/Results.js"></script>
+	<script src="/assets/app/Marks.js"></script>
+	<script src="/assets/app/Exam.js"></script>
+	<script src="/assets/app/version/directive.js"></script>
+	<script src="/assets/app/version/filter.js"></script> 
+	<script src="/assets/app/version/version.js"></script>
+	{{{if .head}}}{{{closure .head}}}{{{end}}}
+    </head>
+    <body>
+	<header>{{{ template "header" }}}</header>
+        <main ng-view></main>
+	<footer>{{{ template "footer" }}}</footer>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+<div><span>{{{.N}}}</span>
+    Given <code>&lt;div id=”outer”&gt;&lt;div class=”inner”&gt;&lt;/div&gt;&lt;/div&gt;</code>, 
+    which of these two is the most performant way to select the inner div?
+    <ol class="list-unstyled">
+        <li>
+            <input id="a1" type="radio" name="answer" ng-model="answer" value="1">
+            <label for="a1"><code>getElementById("outer").children[0]</code></label>
+        </li>
+        <li>
+            <input id="a2" type="radio" name="answer" ng-model="answer" value="2">
+            <label for="a2"><code>getElementsByClassName("inner")[0]</code></label>
+        </li>
+    </ol>
+</div>
+{{{define "Q.A.5"}}}1{{{end}}}

@@ -1,0 +1,14 @@
+<div class="panel panel-primary" style="margin:25px;">
+    <div class="panel-heading"><h2 class="panel-title">Quiz <b>#{{{.Context.N}}}</b></h2></div>
+    <form name="form" ng-submit="submit()" role="form">
+        <div class="panel-body">
+            {{{closure .Context.Q}}}
+        </div>
+        <div class="panel-footer form-actions">
+            <!--<a href="#/exam?n={{number+1}}" class="btn btn-primary">Continue</a>-->
+            <button type="submit" id="submit" ng-disabled="form.$invalid || submitting" class="btn btn-primary">Continue</button>
+            <img ng-if="submitting" class="loading" />
+            <span ng-show="response && response.code != 0" class="help-block bg-warning text-info">{{response.message}}</span>
+        </div>
+    </form>
+</div>

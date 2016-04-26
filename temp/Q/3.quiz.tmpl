@@ -1,0 +1,18 @@
+<div><span>{{{.N}}}</span>
+    To pass an array of strings to a function, you should not use...
+    <ol class="list-unstyled">
+        <li>
+            <input id="a1" type="radio" name="answer" ng-model="answer" value="1">
+            <label for="a1"><code>fn.apply(this, stringsArray)</code></label>
+        </li>
+        <li>
+            <input id="a2" type="radio" name="answer" ng-model="answer" value="2">
+            <label for="a2"><code>fn.call(this, stringsArray)</code></label>
+        </li>
+        <li>
+            <input id="a3" type="radio" name="answer" ng-model="answer" value="3">
+            <label for="a3"><code>fn.bind(this, stringsArray)</code></label>
+        </li>
+    </ol>
+</div>
+{{{define "Q.A.3"}}}3{{{end}}}
