@@ -5,7 +5,7 @@ Simple Quiz Demo written in *Golang*.
 Step 1
 -------
 
-Do this `GOPATH = $HOME/demo` if `GOPATH` is empty. Then:
+Do this `GOPATH=$HOME/demo` if `GOPATH` is empty. Then these:
 
 ```shell
 go get github.com/duzy/Q
